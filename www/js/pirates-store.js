@@ -3,7 +3,7 @@ var PagosStore = function(successCallback, errorCallback) {
     this.findByName = function(searchKey, callback) {
 		$.ajax({
 		dataType: "json",
-		url: "http://192.168.64.133:8080/connections/v1/listafacturas?KeyId=df8fdc7c-f4cf-4a7c-9493-ed3f9a7361ed",
+		url: "http://192.168.64.133:8080/connections/v1/listafacturas?KeyId=32618093-21c0-4431-b0d3-2520b06cbe5c",
 		//url: "http://192.168.64.133:8280/misfacturas",
 		crossDomain: true,
 		success: function (data) {
@@ -25,7 +25,7 @@ var PagosStore = function(successCallback, errorCallback) {
 	this.findById = function(id, callback) {
 		$.ajax({
 		dataType: "json",
-		url: "http://192.168.64.133:8080/connections/v1/listafacturas?KeyId=df8fdc7c-f4cf-4a7c-9493-ed3f9a7361ed",
+		url: "http://192.168.64.133:8080/connections/v1/listafacturas?KeyId=32618093-21c0-4431-b0d3-2520b06cbe5c",
 		crossDomain: true,
 		success: function (data) {
 			myfacturas=data;
